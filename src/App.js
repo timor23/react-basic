@@ -9,7 +9,9 @@ import Card from './components/ex4.2/card';
 import img1 from './components/ex4.2/Romantic-Love.jpg';
 import img2 from './components/ex4.2/beautiful-view-of-burj-khalifa.jpg';
 import img3 from './components/ex4.2/hell.jpg';
-import Ex6_1 from './components/ex6.1/box1'
+import Ex6_1 from './components/ex6.1/box1';
+import Ex7_1 from './components/ex7.1/ex7_1';
+import Ex7_2 from './components/ex7.2/ex7_2';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
         {/*<Card img={img1} title={"Romantic"} desc={"nice"} link1={"https://twitter.com"} link2={"https://walla.com"}/>*/}
         {/*<Card img={img2} title={"Romantic"} desc={"nice"} link1={"https://twitter.com"} link2={"https://walla.com"}/>*/}
         {/*<Card img={img3} title={"Hell"} desc={"nice"} link1={"https://hell.com"} link2={"https://fire.com"}/>*/}
-        <Ex6_1 />
+        {/*<Ex6_1 />*/}
+        {/*<Ex7_1 />*/}
+        <Ex7_2 />
     </div>
   );
 }
