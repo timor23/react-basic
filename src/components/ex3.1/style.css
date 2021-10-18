@@ -4,7 +4,7 @@
     align-items: center;
     width: 700px;
     height: 500px;
-    background-color: lightgreen;
+    background-color: green;
 }
 
 .box2 {
@@ -13,7 +13,7 @@
     align-items: center;
     width: 600px;
     height: 400px;
-    background-color: lightskyblue;
+    background-color: blue;
 }
 
 .box3 {
@@ -23,7 +23,7 @@
     align-items: center;
     width: 500px;
     height: 300px;
-    background-color: lightpink;
+    background-color: pink;
 }
 
 .box4 {
