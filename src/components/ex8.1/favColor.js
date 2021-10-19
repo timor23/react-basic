@@ -1,9 +1,9 @@
 import React from 'react';
 
-class favColor extends React.Component {
+class FavColor extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {favoriteColor: 'red'}
+        this.state = {favoriteColor: 'red'};
     }
 
     componentDidMount() {
@@ -27,4 +27,4 @@ class favColor extends React.Component {
     }
 }
 
-export default favColor;
+export default FavColor;

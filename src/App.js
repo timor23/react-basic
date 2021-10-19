@@ -13,6 +13,7 @@ import Ex6_1 from './components/ex6.1/box1';
 import Ex7_1 from './components/ex7.1/ex7_1';
 import Ex7_2 from './components/ex7.2/ex7_2';
 import Ex8_1 from './components/ex8.1/favColor'
+import Ex8_2 from './components/ex8.2/box'
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
         {/*<Ex6_1 />*/}
         {/*<Ex7_1 />*/}
         {/*<Ex7_2 />*/}
-        <Ex8_1 />
+        {/*<Ex8_1 />*/}
+        <Ex8_2 />
     </div>
   );
 }
