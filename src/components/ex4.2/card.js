@@ -1,4 +1,4 @@
-import './cardStyle.css';
+import styles from './cardStyle.css';
 import React from "react";
 
 const Card = ({img, title, desc, link1, link2}) => {

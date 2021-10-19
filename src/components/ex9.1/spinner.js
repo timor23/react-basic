@@ -1,5 +1,6 @@
 import React from 'react';
-import './spinner.css';
+import ReactDOM from 'react-dom';
+import styles from './style.module.css';
 
 class Spinner extends React.Component {
     constructor(props) {
