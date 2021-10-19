@@ -1,7 +1,7 @@
 body {
     position: relative;
 }
-.box {
+.shape {
     position: absolute;
     width: 300px;
     height: 300px;

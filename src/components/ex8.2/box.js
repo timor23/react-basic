@@ -3,16 +3,16 @@ import './style.css';
 class Box extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {clsName: 'box'};
+        this.state = {clsName: 'shape'};
     }
 
     slide = () => {
-        this.setState({clsName: 'box slide'});
+        this.setState({clsName: 'shape slide'});
         console.log("slide: " + this.state.clsName)
     }
 
     hide = () => {
-        this.setState({clsName: 'box'});
+        this.setState({clsName: 'shape'});
         console.log("hide: " + this.state.clsName)
     }
 
