@@ -12,6 +12,7 @@ import img3 from './components/ex4.2/hell.jpg';
 import Ex6_1 from './components/ex6.1/box1';
 import Ex7_1 from './components/ex7.1/ex7_1';
 import Ex7_2 from './components/ex7.2/ex7_2';
+import Ex8_1 from './components/ex8.1/favColor'
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
         {/*<Card img={img3} title={"Hell"} desc={"nice"} link1={"https://hell.com"} link2={"https://fire.com"}/>*/}
         {/*<Ex6_1 />*/}
         {/*<Ex7_1 />*/}
-        <Ex7_2 />
+        {/*<Ex7_2 />*/}
+        <Ex8_1 />
     </div>
   );
 }
