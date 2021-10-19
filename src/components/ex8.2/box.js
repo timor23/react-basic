@@ -1,33 +1,31 @@
 import React from 'react';
-import './style.css'
-
-const colors = ["blue", "red", "yellow", "green", "pink", "purple", "cyan", "orange"];
-
+import './style.css';
 class Box extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {currentColor: 'red', currentShape: 'box'};
-        this.counter = 0;
+        this.state = {clsName: 'box'};
     }
 
-    changeColor = () => {
-        this.setState({
-            currentColor: colors[Math.floor(Math.random() * colors.length)],
-            currentShape: this.counter < 5 ? this.state.currentShape : 'circle'
-        });
-        this.counter++;
+    slide = () => {
+        this.setState({clsName: 'box slide'});
+        console.log("slide: " + this.state.clsName)
+    }
+
+    hide = () => {
+        this.setState({clsName: 'box'});
+        console.log("hide: " + this.state.clsName)
     }
 
     componentDidMount() {
-        setTimeout(this.changeColor, 500);
+        setTimeout(this.slide, 1000);
     }
 
     componentDidUpdate() {
-        setTimeout(this.changeColor, 500);
+        setTimeout(this.hide, 4000);
     }
 
     render() {
-        return <div className={this.state.currentShape} style={{backgroundColor: this.state.currentColor}}></div>
+        return <div className={this.state.clsName}></div>
     }
 }
 
