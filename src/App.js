@@ -15,6 +15,7 @@ import Ex7_2 from './components/ex7.2/ex7_2';
 import Ex8_1 from './components/ex8.1/favColor';
 import Ex8_2 from './components/ex8.2/box';
 import Ex8_3 from './components/ex8.3/box';
+import Ex9_1 from './components/ex9.1/spinner';
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
         {/*<Ex7_1 />*/}
         {/*<Ex7_2 />*/}
         {/*<Ex8_1 />*/}
-        <Ex8_2 />
+        {/*<Ex8_2 />*/}
         {/*<Ex8_3 />*/}
+        <Ex9_1 />
     </div>
   );
 }

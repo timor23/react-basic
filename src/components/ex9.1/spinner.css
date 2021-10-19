@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    background: #131313;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot  {
+    width: 15px;
+    height: 15px;
+    background: teal;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.dot1{
+  animation: jump 0.9s infinite;
+}
+.dot2{
+  animation: jump 0.9s infinite 0.15s;
+}
+.dot3{
+  animation: jump 0.9s infinite 0.3s;
+}
+
+@keyframes jump {
+    0% {
+        transform:translate(0) ;
+    }
+    
+    50% {
+        transform:translate(-30px) ;
+        background: whitesmoke;
+    }
+    
+    100% {
+        transform:translate(0) ;
+    }
+}
+/* ====================================== */
+body {
+  background: #131313;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  background: teal;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+.dot1{
+  animation: jump 2s infinite;
+}
+.dot2{
+  animation: jump 2s infinite 0.3s;
+}
+.dot3{
+  animation: jump 2s infinite 0.6s;
+}
+
+@keyframes jump {
+  0% {
+    opacity:1;
+  }
+  25% {
+    opacity:0.75;
+    background:red;
+  }
+  50% {
+    opacity:0.5;
+    background:yellow;
+  }
+  75% {
+    opacity:0.75;
+    background:green;
+  }
+  100% {
+    opacity:1;
+    background:green;
+  }
+}
+
