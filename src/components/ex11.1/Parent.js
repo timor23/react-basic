@@ -9,16 +9,16 @@ class Parent extends React.Component {
         this.state = {color: ""}
     }
 
-    changeColor = (color) => {
+    onColorClicked = (color) => {
         this.setState({color: color})
     }
 
     render() {
         return (
             <div>
-                <CustomButton color={colors[0]} callBack={this.changeColor}/>
-                <CustomButton color={colors[1]} callBack={this.changeColor}/>
-                <CustomButton color={colors[2]} callBack={this.changeColor}/>
+                <CustomButton color={colors[0]} callBack={this.onColorClicked}/>
+                <CustomButton color={colors[1]} callBack={this.onColorClicked}/>
+                <CustomButton color={colors[2]} callBack={this.onColorClicked}/>
                 <br/>
                 <h2>The color selected is: {this.state.color}</h2>
             </div>
