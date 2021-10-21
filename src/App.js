@@ -16,8 +16,8 @@ import './App.css';
 // import Ex8_2 from './components/ex8.2/box';
 // import Ex8_3 from './components/ex8.3/box';
 // import Ex9_1 from './components/ex9.1/spinner';
-import Chuk from './components/ex12/chuckNorris';
-
+// import Chuk from './components/ex12/chuckNorris';
+import Ex11_1 from './components/ex11.1/Parent';
 function App() {
   return (
     <div className={"container"}>
@@ -37,7 +37,8 @@ function App() {
         {/*<Ex8_2 />*/}
         {/*<Ex8_3 />*/}
         {/*<Ex9_1 />*/}
-        <Chuk />
+        {/*<Chuk />*/}
+        <Ex11_1 />
     </div>
   );
 }
